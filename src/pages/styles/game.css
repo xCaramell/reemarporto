@@ -1,0 +1,50 @@
+/* styles/game.css */
+.game {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.square.winner {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reset, .back-home {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.reset:hover, .back-home:hover {
+  background-color: #45a049;
+}

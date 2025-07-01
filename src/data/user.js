@@ -70,11 +70,18 @@ const INFO = {
 			title: "Website Cafe",
 			description:
 				"A stylish and responsive website for a local café, featuring menu display, contact form, location map, and modern UI design. Built to enhance the café's online presence and customer engagement.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/php/php.png",
 			linkText: "View Project",
 			link: "https://github.com/xCaramell",
 		},
+		{
+		  title: "Website Sch.id",
+		  description:
+		  "Sch.id is a modern and responsive school website designed to simplify academic information access for students, teachers, and parents. It features a clean user interface, dynamic content updates.",
+		  logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
+		  linkText: "View Project",
+		  link: "https://github.com./xCaramell",
+		},
 	],
 };
-
 export default INFO;
